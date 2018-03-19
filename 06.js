@@ -1,5 +1,5 @@
 
-function collectOdd() {
+function fn() {
 
   var i = 100
 
@@ -11,4 +11,4 @@ function collectOdd() {
 
 }
 
-collectOdd()
+fn()

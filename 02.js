@@ -1,9 +1,9 @@
-function say() {
-  console.log('Say')
+function fn() {
+  console.log('A')
 }
 
-var say = function () {
-  console.log('hijacked')
+var fn = function () {
+  console.log('B')
 }
 
-say()
+fn()
